@@ -1,0 +1,60 @@
+html{
+    position: relative;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 12px;
+}
+.a1{
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    margin-top: 150px;
+    justify-content: center;
+}
+footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    display: grid;
+    grid-template-columns: 70% 140%;
+}
+.a3{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.a4{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.a5{
+    margin-right: 20px;
+}
+.a7{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.botonizquierdo{
+    display: inline;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.botonderecho{
+    display: inline;
+    width: 150px;
+}
+.topright{
+    text-align: right;
+}
+.bottomright{
+    text-align: right;
+}
